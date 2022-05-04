@@ -1,0 +1,48 @@
+#list {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 20px; */
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  margin: 20px;
+}
+.main-container:hover {
+  transform: scale(1.1);
+  transition: ease-out;
+}
+.image {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+.brand-span {
+  font-weight: 700;
+}
+.description {
+  color: #535766;
+  font-weight: 400;
+  font-size: 14px;
+}
+.price {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.span-price {
+  font-weight: 700;
+}
+.original-price {
+  text-decoration: line-through;
+  font-size: 14px;
+  color: #7e818c;
+}
+.off {
+  color: #ff5722;
+}
+.message {
+  color: #ff5722;
+  font-size: 14px;
+}
